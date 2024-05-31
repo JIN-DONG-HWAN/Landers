@@ -59,13 +59,13 @@ if ! [[ $date =~ ^[0-9]+$ ]]; then
     exit 1
 fi
 
-# 년도가 숫자인지 확인
+# 연도가 숫자인지 확인
 if ! [[ $year =~ ^[0-9]+$ ]]; then
-    echo "년도($year)는 유효하지 않습니다"
+    echo "연도($year)는 유효하지 않습니다"
     exit 1
 fi
 
-# 월 별 일 수 설정
+# 월별, 일수 설정
 case $month_proper in
     Jan|Mar|May|Jul|Aug|Oct|Dec) days_in_month=31 ;;
     Apr|Jun|Sep|Nov) days_in_month=30 ;;
