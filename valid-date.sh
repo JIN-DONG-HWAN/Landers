@@ -25,8 +25,8 @@ convert_month_to_proper_case() {
         may|may|5) echo "May" ;;
         jun|june|6) echo "Jun" ;;
         jul|july|7) echo "Jul" ;;
-        aug|august|8|8) echo "Aug" ;;
-        sep|september|9|9) echo "Sep" ;;
+        aug|august|8) echo "Aug" ;;
+        sep|september|9) echo "Sep" ;;
         oct|october|10) echo "Oct" ;;
         nov|november|11) echo "Nov" ;;
         dec|december|12) echo "Dec" ;;
